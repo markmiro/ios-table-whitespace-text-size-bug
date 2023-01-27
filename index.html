@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table sizing bug</title>
+    <style>
+      table {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Lorem</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ullam aliquid mol
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lorem
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Lorem</th>
+          <th>Two</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>LoremA</td>
+          <td>2A</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
