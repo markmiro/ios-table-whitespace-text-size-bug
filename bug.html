@@ -4,8 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table sizing bug</title>
     <style>
+      body {
+        background: #eee;
+      }
       table {
         white-space: nowrap;
+      }
+      th {
+        text-align: left;
       }
     </style>
   </head>
@@ -13,18 +19,18 @@
     <table>
       <thead>
         <tr>
-          <th>Lorem</th>
+          <th>Header</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ullam aliquid mol
+            Row 1: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi impedit tempore assumenda dolore perferendis deleniti repellat aliquid sit quo nostrum expedita commodi, nulla, inventore eveniet exercitationem labore, nam quibusdam! Consequatur.
           </td>
         </tr>
         <tr>
           <td>
-            Lorem
+            Row 2
           </td>
         </tr>
       </tbody>
@@ -32,14 +38,14 @@
     <table>
       <thead>
         <tr>
-          <th>Lorem</th>
-          <th>Two</th>
+          <th>Col 1</th>
+          <th>Col 2</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>LoremA</td>
-          <td>2A</td>
+          <td>Hello</td>
+          <td>There</td>
         </tr>
       </tbody>
     </table>
